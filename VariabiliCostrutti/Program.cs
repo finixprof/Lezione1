@@ -2,7 +2,7 @@
 
 namespace Lezione1.VariabiliCostrutti
 {
-    class Program
+    internal class Program
     {
         //costruttore di default
         //public Program()
@@ -22,6 +22,14 @@ namespace Lezione1.VariabiliCostrutti
             decimal numeroDecimaleDecimal = 10.0m;
             double numeroDecimaleDouble = 6.7;
             var x = 4;
+            int? interoNullable = null;
+            Nullable<int> interoNullableInt = null;
+            //interoNullable. primitiva
+            //interoNullableInt. oggetto
+            if (interoNullable!=null)
+            {
+                //interoNullable = interoNullable.Value;
+            }
             var y = 5.0f;
             var z = 10.1m;
             var w = 8.5;
