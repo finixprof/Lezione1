@@ -12,7 +12,8 @@ namespace Lezione1.VariabiliCostrutti
 
         static void Main(string[] args)
         {
-
+//Tour C#
+//https://learn.microsoft.com/it-it/dotnet/csharp/tour-of-csharp/
             int numero = 3; //byte, short, long
             //tutte le variabili possono essere signed e unsigned
             //quelle unsigned hanno la u davanti e accettano
