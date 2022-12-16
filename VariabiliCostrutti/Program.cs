@@ -38,8 +38,11 @@ namespace Lezione1.VariabiliCostrutti
             var charA = 'n'; //char
             ws = ws + 5;
             int p = (int)numeroDecimaleDouble; //cast esplicito -> troncamento della parte decimale
+            //passando con un cast da int a double realizzo un completamento
             w = 7;
             Console.WriteLine($"Hello World! Salvo {numero} {numeroDecimaleDecimal} {p} {ws} {w}");
+            //Console.ReadLine(); //prendo una stringa da tastiera
+            //Console.ReadKey().KeyChar; //prendo una carattere da tastiera
             var somma = 0;
             //costrutti
 
@@ -77,7 +80,7 @@ namespace Lezione1.VariabiliCostrutti
 
             //} while (true);
 
-            //il foreach non permette di cambuare la dimensione della collection
+            //il foreach non permette di cambiare la dimensione della collection
             //che stiamo navigando
             foreach (var carattere in ws)
             {
